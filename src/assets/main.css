@@ -1,0 +1,20 @@
+@import './pico.min.css';
+
+@font-face {
+  font-family: 'Ubuntu Sans Mono';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./fonts/UbuntuSansMono-Regular.woff2') format('woff2');
+}
+
+* {
+  font-family: 'Ubuntu Sans Mono', monospace;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
